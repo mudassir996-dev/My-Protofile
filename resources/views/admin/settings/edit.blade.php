@@ -96,7 +96,7 @@
                 />
             </div>
         </div>
-
+        
         <hr class="border-slate-200">
 
         <!-- File uploads group -->

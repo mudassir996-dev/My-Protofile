@@ -59,6 +59,7 @@
                     @endif
                     @if($settings->email)
                         <a href="mailto:{{ $settings->email }}" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors" aria-label="Email">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to={{ $settings->email }}" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors" aria-label="Email">
                             <i class="fas fa-envelope text-2xl"></i>
                         </a>
                     @endif
